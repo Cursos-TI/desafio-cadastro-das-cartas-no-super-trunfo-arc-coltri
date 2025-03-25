@@ -7,6 +7,30 @@
 //Teste larissa
 
 int main() {
+    char carta1; //tipo da carta;
+    char estado; //estado, letrada 1 letra;
+    char cartanome[3]; //Código da carta 1letra 2numeros;
+    char cidade[40];
+    int populacao;
+    float areaKm;
+    float pib;
+    int numpontostur;
+
+    printf("Escolha sua Carta: %c", carta1); //Realiza o tipo de carta de Supert Trunfo;
+    scanf("%c", &carta1);
+    printf("Carta Escolhida é: %c\n", carta1);
+
+    printf("Estado da carta: %c", estado); //Sua escolha do Estado da Carta, apenas inicial;
+    scanf("%s", &estado);
+    printf("Estado: %c\n", estado);
+
+    printf("Código: %c\n", cartanome);
+    scanf("%s", cartanome);
+    printf("Código: %s\n", cartanome);
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
